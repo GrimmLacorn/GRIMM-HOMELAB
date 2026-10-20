@@ -1,0 +1,32 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.sqlite
+secrets/
+private/
+captures/raw/
+
+# Build and tool output
+node_modules/
+npm-debug.log*
+coverage/
+dist/
+build/
+site/
+.cache/
+__pycache__/
+*.py[cod]
+
+# Infrastructure state and local editor files
+.terraform/
+*.tfstate
+*.tfstate.*
+.DS_Store
+.idea/
+.vscode/

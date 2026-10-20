@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">GRIMM HOMELAB</title>
+  <desc id="desc">Dark navy technical banner with a cyan network motif and the subtitle Self-Hosted Infrastructure, Networking and Cybersecurity Laboratory.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.56" stop-color="#101d31"/>
+      <stop offset="1" stop-color="#0a2633"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#78f3f0"/>
+      <stop offset="1" stop-color="#36b9d2"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#9ed6e2" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="80%" cy="48%" r="65%">
+      <stop offset="0" stop-color="#1c8da0" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#1c8da0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="520" rx="28" fill="url(#background)"/>
+  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+  <rect width="1600" height="520" rx="28" fill="url(#glow)"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2">
+    <path d="M1015 117h180l74 74h149" stroke-opacity=".7"/>
+    <path d="M965 264h193l71-71h188" stroke-opacity=".55"/>
+    <path d="M1045 379h122l66-66h202" stroke-opacity=".6"/>
+    <path d="M1200 117v147m69-190v119m74 0v116m75-56v160" stroke-opacity=".32"/>
+    <path d="M1050 117v64m108 83v64m186-209v62m-177 132v48" stroke-opacity=".28"/>
+  </g>
+  <g fill="#0d2938" stroke="url(#accent)" stroke-width="2">
+    <rect x="1182" y="99" width="36" height="36" rx="8"/>
+    <rect x="1251" y="173" width="36" height="36" rx="8"/>
+    <rect x="1448" y="173" width="36" height="36" rx="8"/>
+    <rect x="1238" y="295" width="36" height="36" rx="8"/>
+    <rect x="1451" y="295" width="36" height="36" rx="8"/>
+    <circle cx="1048" cy="117" r="7" fill="#78f3f0"/>
+    <circle cx="1015" cy="264" r="7" fill="#78f3f0"/>
+    <circle cx="1045" cy="379" r="7" fill="#78f3f0"/>
+  </g>
+  <g transform="translate(120 102)">
+    <rect width="106" height="106" rx="24" fill="#102d3b" stroke="#60dce5" stroke-width="2"/>
+    <path d="M71 31H49c-13 0-22 10-22 23v2c0 13 9 22 22 22h13V62H45" fill="none" stroke="#eafaff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M61 56h18v24" fill="none" stroke="#65e7e8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="79" cy="80" r="4" fill="#65e7e8"/>
+  </g>
+  <text x="120" y="291" fill="#f1f7fb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="5">GRIMM HOMELAB</text>
+  <rect x="121" y="322" width="78" height="4" rx="2" fill="url(#accent)"/>
+  <text x="120" y="370" fill="#c1d4df" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" letter-spacing="1.1">SELF-HOSTED INFRASTRUCTURE</text>
+  <text x="120" y="408" fill="#c1d4df" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" letter-spacing="1.1">NETWORKING &amp; CYBERSECURITY LABORATORY</text>
+  <text x="120" y="467" fill="#77dfe5" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="3">BUILD · SECURE · OBSERVE · DOCUMENT</text>
+  <text x="1360" y="458" fill="#c1d4df" fill-opacity=".8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" text-anchor="end" letter-spacing="2">PERSONAL ENGINEERING PORTFOLIO</text>
+</svg>
